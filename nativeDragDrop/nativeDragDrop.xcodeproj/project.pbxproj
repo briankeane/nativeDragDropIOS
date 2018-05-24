@@ -12,7 +12,6 @@
 		4BF86A5E20B5AAA90069D585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A5C20B5AAA90069D585 /* Main.storyboard */; };
 		4BF86A6020B5AAAB0069D585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A5F20B5AAAB0069D585 /* Assets.xcassets */; };
 		4BF86A6320B5AAAB0069D585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A6120B5AAAB0069D585 /* LaunchScreen.storyboard */; };
-		4BF86A6B20B711A70069D585 /* DraggableUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF86A6A20B711A70069D585 /* DraggableUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		4BF86A5F20B5AAAB0069D585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF86A6220B5AAAB0069D585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF86A6420B5AAAB0069D585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BF86A6A20B711A70069D585 /* DraggableUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableUITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 			children = (
 				4BF86A5820B5AAA90069D585 /* AppDelegate.swift */,
 				4BF86A5A20B5AAA90069D585 /* ViewController.swift */,
-				4BF86A6A20B711A70069D585 /* DraggableUITableViewCell.swift */,
 				4BF86A5C20B5AAA90069D585 /* Main.storyboard */,
 				4BF86A5F20B5AAAB0069D585 /* Assets.xcassets */,
 				4BF86A6120B5AAAB0069D585 /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BF86A6B20B711A70069D585 /* DraggableUITableViewCell.swift in Sources */,
 				4BF86A5B20B5AAA90069D585 /* ViewController.swift in Sources */,
 				4BF86A5920B5AAA90069D585 /* AppDelegate.swift in Sources */,
 			);
