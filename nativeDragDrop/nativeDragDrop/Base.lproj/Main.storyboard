@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TR3-xe-ibe">
-                                <rect key="frame" x="0.0" y="20" width="375" height="265"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="265" id="LWc-Tu-r26"/>
@@ -45,44 +45,17 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GjS-UD-oCp">
-                                <rect key="frame" x="0.0" y="324" width="375" height="343"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="lettersCell" textLabel="cmY-bg-z0v" style="IBUITableViewCellStyleDefault" id="8UM-ba-1ve">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8UM-ba-1ve" id="r8y-6c-eZj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cmY-bg-z0v">
-                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="GjS-UD-oCp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0kF-wz-ML4"/>
-                            <constraint firstItem="GjS-UD-oCp" firstAttribute="top" secondItem="TR3-xe-ibe" secondAttribute="bottom" constant="39" id="6Ph-Ra-snY"/>
                             <constraint firstItem="TR3-xe-ibe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9hE-L1-3yy"/>
                             <constraint firstItem="TR3-xe-ibe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M3b-3B-hwU"/>
-                            <constraint firstItem="GjS-UD-oCp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UCS-a5-63j"/>
-                            <constraint firstItem="GjS-UD-oCp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Uo8-RY-TQA"/>
+                            <constraint firstItem="TR3-xe-ibe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UEQ-4e-jvB"/>
                             <constraint firstItem="TR3-xe-ibe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fy3-H1-dq9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="lettersTableView" destination="GjS-UD-oCp" id="D4q-KG-0Ty"/>
                         <outlet property="numbersTableView" destination="TR3-xe-ibe" id="VvE-Rq-Yj2"/>
                     </connections>
                 </viewController>
