@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BBAB0FE20BC7910009B812A /* ReorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0F820BC790F009B812A /* ReorderController.swift */; };
+		4BBAB0FF20BC7910009B812A /* ReorderController+AutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0F920BC790F009B812A /* ReorderController+AutoScroll.swift */; };
+		4BBAB10020BC7910009B812A /* ReorderController+DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0FA20BC790F009B812A /* ReorderController+DestinationRow.swift */; };
+		4BBAB10120BC7910009B812A /* ReorderController+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0FB20BC790F009B812A /* ReorderController+GestureRecognizer.swift */; };
+		4BBAB10220BC7910009B812A /* UITableView+Reorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0FC20BC7910009B812A /* UITableView+Reorder.swift */; };
+		4BBAB10320BC7910009B812A /* ReorderController+SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBAB0FD20BC7910009B812A /* ReorderController+SnapshotView.swift */; };
 		4BF86A5920B5AAA90069D585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF86A5820B5AAA90069D585 /* AppDelegate.swift */; };
 		4BF86A5B20B5AAA90069D585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF86A5A20B5AAA90069D585 /* ViewController.swift */; };
 		4BF86A5E20B5AAA90069D585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A5C20B5AAA90069D585 /* Main.storyboard */; };
 		4BF86A6020B5AAAB0069D585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A5F20B5AAAB0069D585 /* Assets.xcassets */; };
 		4BF86A6320B5AAAB0069D585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF86A6120B5AAAB0069D585 /* LaunchScreen.storyboard */; };
+		A590C54E2B421BDD2417B098 /* Pods_nativeDragDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D56E6CE9AECDF8D5770612 /* Pods_nativeDragDrop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26A084C8BFED180FF86D67CA /* Pods-nativeDragDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeDragDrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nativeDragDrop/Pods-nativeDragDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBAB0F820BC790F009B812A /* ReorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderController.swift; sourceTree = "<group>"; };
+		4BBAB0F920BC790F009B812A /* ReorderController+AutoScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+AutoScroll.swift"; sourceTree = "<group>"; };
+		4BBAB0FA20BC790F009B812A /* ReorderController+DestinationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+DestinationRow.swift"; sourceTree = "<group>"; };
+		4BBAB0FB20BC790F009B812A /* ReorderController+GestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		4BBAB0FC20BC7910009B812A /* UITableView+Reorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reorder.swift"; sourceTree = "<group>"; };
+		4BBAB0FD20BC7910009B812A /* ReorderController+SnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReorderController+SnapshotView.swift"; sourceTree = "<group>"; };
 		4BF86A5520B5AAA90069D585 /* nativeDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativeDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF86A5820B5AAA90069D585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF86A5A20B5AAA90069D585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		4BF86A5F20B5AAAB0069D585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF86A6220B5AAAB0069D585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF86A6420B5AAAB0069D585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F35A2E1767359D7D65562F1 /* Pods-nativeDragDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeDragDrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-nativeDragDrop/Pods-nativeDragDrop.release.xcconfig"; sourceTree = "<group>"; };
+		B2D56E6CE9AECDF8D5770612 /* Pods_nativeDragDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nativeDragDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A590C54E2B421BDD2417B098 /* Pods_nativeDragDrop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11AF2ECA8FD117E5F430DA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D56E6CE9AECDF8D5770612 /* Pods_nativeDragDrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BBAB10420BC791C009B812A /* Reorder */ = {
+			isa = PBXGroup;
+			children = (
+				4BBAB0F820BC790F009B812A /* ReorderController.swift */,
+				4BBAB0F920BC790F009B812A /* ReorderController+AutoScroll.swift */,
+				4BBAB0FA20BC790F009B812A /* ReorderController+DestinationRow.swift */,
+				4BBAB0FB20BC790F009B812A /* ReorderController+GestureRecognizer.swift */,
+				4BBAB0FD20BC7910009B812A /* ReorderController+SnapshotView.swift */,
+			);
+			path = Reorder;
+			sourceTree = "<group>";
+		};
 		4BF86A4C20B5AAA90069D585 = {
 			isa = PBXGroup;
 			children = (
 				4BF86A5720B5AAA90069D585 /* nativeDragDrop */,
 				4BF86A5620B5AAA90069D585 /* Products */,
+				760F27DBAC6769433F27C3AE /* Pods */,
+				11AF2ECA8FD117E5F430DA2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +93,8 @@
 		4BF86A5720B5AAA90069D585 /* nativeDragDrop */ = {
 			isa = PBXGroup;
 			children = (
+				4BBAB10420BC791C009B812A /* Reorder */,
+				4BBAB0FC20BC7910009B812A /* UITableView+Reorder.swift */,
 				4BF86A5820B5AAA90069D585 /* AppDelegate.swift */,
 				4BF86A5A20B5AAA90069D585 /* ViewController.swift */,
 				4BF86A5C20B5AAA90069D585 /* Main.storyboard */,
@@ -64,6 +105,15 @@
 			path = nativeDragDrop;
 			sourceTree = "<group>";
 		};
+		760F27DBAC6769433F27C3AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A084C8BFED180FF86D67CA /* Pods-nativeDragDrop.debug.xcconfig */,
+				7F35A2E1767359D7D65562F1 /* Pods-nativeDragDrop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BF86A6720B5AAAB0069D585 /* Build configuration list for PBXNativeTarget "nativeDragDrop" */;
 			buildPhases = (
+				821D8A5096C246A93079038C /* [CP] Check Pods Manifest.lock */,
 				4BF86A5120B5AAA90069D585 /* Sources */,
 				4BF86A5220B5AAA90069D585 /* Frameworks */,
 				4BF86A5320B5AAA90069D585 /* Resources */,
@@ -130,13 +181,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		821D8A5096C246A93079038C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nativeDragDrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BF86A5120B5AAA90069D585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBAB0FE20BC7910009B812A /* ReorderController.swift in Sources */,
+				4BBAB10220BC7910009B812A /* UITableView+Reorder.swift in Sources */,
+				4BBAB10120BC7910009B812A /* ReorderController+GestureRecognizer.swift in Sources */,
 				4BF86A5B20B5AAA90069D585 /* ViewController.swift in Sources */,
+				4BBAB10320BC7910009B812A /* ReorderController+SnapshotView.swift in Sources */,
 				4BF86A5920B5AAA90069D585 /* AppDelegate.swift in Sources */,
+				4BBAB0FF20BC7910009B812A /* ReorderController+AutoScroll.swift in Sources */,
+				4BBAB10020BC7910009B812A /* ReorderController+DestinationRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +356,7 @@
 		};
 		4BF86A6820B5AAAB0069D585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A084C8BFED180FF86D67CA /* Pods-nativeDragDrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +375,7 @@
 		};
 		4BF86A6920B5AAAB0069D585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F35A2E1767359D7D65562F1 /* Pods-nativeDragDrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
